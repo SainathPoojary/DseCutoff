@@ -4,12 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./jquery.min.js"></script>
     <title>DSE Cutoff</title>
-    <link
-      href="https://unpkg.com/tailwindcss@^1/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="./tailwind.min.css" rel="stylesheet" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -142,7 +139,7 @@
             This page is still on beta stage. Some Colleges will be not working
           </p>
 
-          <div class="flex mb-8 justify-center md:justify-start">
+          <div class="flex mb-5 md:mb-8 justify-center md:justify-start">
             <select
               class="bg-gray-900 my-auto px-5 py-2 rounded text-gray-100 w-4/5"
               name="cutoff"
@@ -1039,7 +1036,15 @@
               </option>
             </select>
           </div>
-          <div class="flex justify-center al">
+          <div
+            class="
+              flex flex-col
+              w-4/5
+              flex
+              justify-center
+              md:flex-row md:w-auto
+            "
+          >
             <button
               class="
                 inline-flex
@@ -1052,7 +1057,9 @@
                 hover:bg-indigo-600
                 rounded
                 text-lg
-                mr-5
+                mb-5
+                md:mb-auto md:mr-5
+                lg:mr-5
               "
               onclick="openCap1()"
             >
@@ -1070,6 +1077,7 @@
                 hover:bg-indigo-600
                 rounded
                 text-lg
+                md:m-auto
               "
               onclick="openCap2()"
             >
@@ -1113,18 +1121,24 @@
           "
         >
           <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
             class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-            viewBox="0 0 24 24"
+            viewBox="0 0 469 589"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
+              d="M13.6983 214.5C25.7498 248.787 78.6684 278.992 182.45 309.5C279.212 347.522 281.814 407.166 243.621 455.5C186.133 528.251 42.9501 585.5 42.9501 585.5L13.6983 214.5Z"
+              fill="white"
+            />
+            <path
+              d="M215.45 9C74.6974 98.2603 -5.0019 161.296 13.6983 214.5M182.45 309.5C78.6684 278.992 25.7498 248.787 13.6983 214.5M182.45 309.5C279.212 347.522 281.814 407.166 243.621 455.5M182.45 309.5L348.45 140.5M13.6983 214.5L42.9501 585.5C42.9501 585.5 186.133 528.251 243.621 455.5M243.621 455.5C287.405 406.167 463.632 245.5 468.95 253.5"
+              stroke="white"
+              stroke-width="30"
+            />
+            <path
+              d="M40 273C48.5787 297.399 86.2484 318.892 160.124 340.601C229.004 367.657 230.856 410.1 203.668 444.493C162.746 496.262 60.8226 537 60.8226 537L40 273Z"
+              fill="#667EEA"
+            />
           </svg>
           <span class="ml-3 text-xl text-gray-100">DSE Cutoff</span>
         </a>
@@ -1167,7 +1181,10 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-500">
+          <a
+            href="https://twitter.com/sainathpoojary_"
+            class="ml-3 text-gray-500"
+          >
             <svg
               fill="currentColor"
               stroke-linecap="round"
@@ -1181,7 +1198,10 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-500">
+          <a
+            href="https://www.instagram.com/sainathpoojaryy/"
+            class="ml-3 text-gray-500"
+          >
             <svg
               fill="none"
               stroke="currentColor"
@@ -1197,7 +1217,10 @@
               ></path>
             </svg>
           </a>
-          <a class="ml-3 text-gray-500">
+          <a
+            href="https://www.linkedin.com/in/sainathpoojary/"
+            class="ml-3 text-gray-500"
+          >
             <svg
               fill="currentColor"
               stroke="currentColor"
