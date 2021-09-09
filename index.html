@@ -341,7 +341,7 @@
               <option value="2573">
                 Gramin College of Engineering, Vishnupuri, Nanded
               </option>
-              <option value="3012">
+              <option selected value="3012">
                 Veermata Jijabai Technological Institute(VJTI), Matunga, Mumbai
               </option>
               <option value="3014">
@@ -1571,6 +1571,7 @@
         return at > bt ? 1 : at < bt ? -1 : 0; // Tell the sort function how to order
       });
       options.appendTo("#cutoff");
+      $("#cutoff option[value='3012']").prop("selected", true);
 
       function openCap1() {
         var code = document.getElementById("cutoff").value;
