@@ -386,12 +386,13 @@ function createItem(name) {
 function openCap2() {
   var code = document.getElementById("searchBox").name;
   window.open(
+   
     "https://dse20.mahacet.org.in/dse20/admin/allotment/cap2/" + code + "_4.pdf"
   );
 }
 function openCap1() {
   var code = document.getElementById("searchBox").name;
   window.open(
-    "https://dse20.mahacet.org.in/dse20/admin/allotment/cap1/" + code + "_4.pdf"
+     "https://dseusers21cap.mahacet.org.in/dse21/admin/allotment/cap1/" + code + "_4.pdf"
   );
 }
