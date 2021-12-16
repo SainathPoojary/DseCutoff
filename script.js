@@ -387,7 +387,7 @@ function openCap2() {
   var code = document.getElementById("searchBox").name;
   window.open(
    
-    "https://dse20.mahacet.org.in/dse20/admin/allotment/cap2/" + code + "_4.pdf"
+    "https://dse21cap.mahacet.org.in/dse21/admin/allotment/cap2/" + code + "_4.pdf"
   );
 }
 function openCap1() {
